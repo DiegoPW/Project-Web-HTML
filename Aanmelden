@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aanmelden</title>
+</head>
+
+<body>
+    <header> <a href="index.html">Ga terug</a>
+        <nav>
+            <ul>
+                <li>Search</li>
+                <a href="aanmeld.html">
+                    <li>Profile</li>
+                </a>
+            </ul>
+        </nav>
+    </header> 
+    Voornaam: *
+    <br>
+    <input type="text" name="voornaam" placeholder="Voornaam">
+    <br> 
+    Tussenvoegsel:
+    <br>
+    <input type="text" name="tussenvoegsel" placeholder="Tussenvoegsel">
+    <br>
+    Achternaam: *
+    <br>
+    <input type="text" name="achternaam" placeholder="Achternaam">
+    <br>
+    Geboortedatum: *
+    <br>
+    <input type="text" name="geboortedatum" placeholder="dd-mm-jjjj">
+    <br>
+    E-mailadres: *
+    <br>
+    <input type="text" name="email" placeholder="naam@host.com">
+    <br>
+    Telefoonnummer: *
+    <br>
+    <input type="text" name="telefoonnummer" placeholder="+31XXXXXXXXXX">
+    <br>
+    Gebruikersnaam: *
+    <br>
+      <input type="text" name="gebruikersnaam" placeholder="Gebruikersnaam">
+      <br>
+      Wachtwoord: *
+      <br>
+        <input type="text" name="wachtwoord" placeholder="Wachtwoord">
+        <br>
+    Vul opnieuw jouw wachtwoord in: *
+    <br>
+    <input type="text" name="wachtwoord" placeholder="Wachtwoord">
+    <br>
+    <input type="submit" value="Submit"> <br>
+     <i>Velden met * zijn verplicht</i>
+    </body>
+
+</html>
